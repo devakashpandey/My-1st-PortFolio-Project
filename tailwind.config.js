@@ -4,8 +4,8 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    fontFamily : {
-      sign : ["Great Vibes"]
+    fontFamily : {  // THIS IS PREDEFINED
+      sign : ["Great Vibes"]  // THIS WILL WE CHANGE
     }
   },
   plugins: [],
