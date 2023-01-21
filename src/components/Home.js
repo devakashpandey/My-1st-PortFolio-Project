@@ -5,8 +5,8 @@ import "./Home.css"
 
 const Home = () => {
   return (
-     <>
-      <div name="home" className='h-screen w-full home'>
+     <> 
+      <div name="home" className='w-full home'>
                       
          <div className='max-w-screen-lg mx-auto flex flex-col items-center
                           justify-between h-full px-3 md:flex-row w-full'>
@@ -26,7 +26,6 @@ const Home = () => {
            </div>
 
            </div>
-
 
           <div>
            <img src={Akash} alt="my profile" className='rounded-2xl pic' />
