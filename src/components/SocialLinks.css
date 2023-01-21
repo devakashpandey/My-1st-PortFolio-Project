@@ -7,12 +7,12 @@
 .social-li{
    display: flex;
    align-items: center;
-   background-color: rgb(68, 67, 67);
+   background-color: rgb(105, 103, 103);
    height: 48px;
    width: 155px;
    transition: all 0.3s;
    cursor: pointer;
-   border-radius: 5px;
+   margin-left: -100px;
 }
 
 .social-li:hover{
@@ -27,4 +27,20 @@
   color: white;
   align-items: center;
   font-size: 17px;
+}
+
+@media (max-width:1145px){ 
+  
+.social{
+  display: none;
+}
+                         
+ }
+
+@media (min-width:1110px){ 
+  
+.social{
+   display: flex;
+ }
+   
 }
