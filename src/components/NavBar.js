@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
+import "./Nav.css";
 
 const NavBar = () => {
 
@@ -7,12 +8,10 @@ const NavBar = () => {
 
   return (
       <>
-      <div className='flex justify-between items-center w-full h-20
-      px-4 text-white bg-black fixed'>
-
-    <div>
-        <h1 className='text-5xl font-sign'>Akash</h1>
-    </div>
+      <div className='main-nav'>
+        <div>
+           <h1 className='text-5xl font-sign'>Akash</h1>
+        </div>
 
     {/* menu for big screen  */}
 

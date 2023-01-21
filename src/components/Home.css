@@ -1,0 +1,29 @@
+.home{
+  background-color: rgb(21, 21, 21);
+  color: white;
+  width: 100%;
+}
+
+.pic{
+   width: 450px;
+   height:auto;
+}
+
+.about{
+  width: 30rem;
+}
+
+.main-btn{
+  background-color: rgb(48, 122, 251);
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.main-btn:hover{
+   background-color:rgb(28, 104, 235) ;
+}
+
+span{
+ transition:all, 0.4s;
+ font-size: 20px;
+}
