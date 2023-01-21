@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily : {  // THIS IS PREDEFINED
-      sign : ["Great Vibes"]  // THIS WILL WE CHANGE
+      sign : ["Satisfy"]  // THIS WILL WE CHANGE
     }
   },
   plugins: [],

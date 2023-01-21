@@ -16,7 +16,7 @@ const NavBar = () => {
 
     {/* menu for big screen  */}
 
-    <ul className='hidden md:flex text-gray-400'>
+    <ul className='hidden md:flex text-gray-400'>  {/* hidden => hide the menu when toggle come */}
       <li 
       className='px-4 cursor-pointer hover:scale-110 font-medium
        duration-200'>Home
