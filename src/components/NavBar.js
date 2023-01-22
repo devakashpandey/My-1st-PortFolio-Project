@@ -10,7 +10,7 @@ const NavBar = () => {
       <>
       <div className='main-nav'>
         <div>
-           <h1 className='text-5xl font-sign'>Akash</h1>
+           <h1 className='my-name font-sign'>Akash</h1>
         </div>
 
     {/* menu for big screen  */}
