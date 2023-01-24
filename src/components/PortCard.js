@@ -39,23 +39,21 @@ const PortCard = () => {
       <div className='grid sm:grid-cols-2 md:grid-cols-3 sm:px-0 gap-8 px-12 '>
       
       {
-        portCards.map(({id, src, height}) =>{
+        portCards.map(({id, src}) =>{
             return (
                       <div key={id} className='port-card h-full'>
-                      <img src={src} alt=" expenseTracker" className='port-img duration-300'></img>
+                         <img src={src} alt=" expenseTracker" className='port-img duration-300'></img>
                       
-                      <div className='buttons'>
-                        <button>Demo</button>
-                        <button>Get Code </button>
+                         <div className='buttons'>
+                           <button>Demo</button>
+                           <button>Get Code </button>
+                         </div>
                       </div>
-                    </div>
             )
         })
       }
-      
     
       </div>
-
 
     {/* portfolio card end !!!*/}
      </>

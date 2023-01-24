@@ -1,0 +1,66 @@
+.main-experience{
+ background-color:  rgb(21, 21, 21);
+ color: white;
+ width: 100%;
+ padding-top:100px;
+}
+
+.my-exp{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.exp-text{
+  font-size: 48px;
+  font-weight: 500;
+  border-bottom: 5px solid gray;
+  width: 16rem;
+  display: inline;
+}
+
+.exp-img{
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.exp-img:hover{
+  transform: scale(1.05);
+}
+
+.html{
+  box-shadow: 2px 3px 2px rgb(232, 130, 5);
+}
+
+.css{
+box-shadow: 2px 3px 2px rgb(9, 145, 195);
+ }
+
+.bootstrap{
+box-shadow: 2px 3px 2px rgb(92, 6, 221);
+}
+
+.javascript{
+box-shadow: 2px 3px 2px rgb(240, 240, 7);
+}
+
+.react{
+ box-shadow: 2px 3px 2px rgb(17, 242, 242);
+}
+
+.github{
+box-shadow: 2px 3px 2px rgb(234, 225, 214);
+}
+
+.tailwind{
+box-shadow: 2px 3px 2px rgb(4, 155, 160);
+}
+
+.firebase{
+box-shadow: 2px 3px 2px rgb(160, 145, 6);
+}
+
+                    
