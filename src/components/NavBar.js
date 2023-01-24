@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import "./Nav.css";
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
 
@@ -18,23 +19,28 @@ const NavBar = () => {
     <ul className='hidden md:flex text-gray-400'>  {/* hidden => hide the menu when toggle come */}
       <li 
       className='px-4 cursor-pointer hover:scale-110 font-medium
-       duration-200'>Home
+       duration-200'>
+        <Link to="home" smooth duration={500} >Home</Link>
       </li>
       <li 
       className='px-4 cursor-pointer hover:scale-110 font-medium
-       duration-200'>About
+       duration-200'>
+        <Link to="about" smooth duration={500} >About</Link>
       </li>
       <li 
       className='px-4 cursor-pointer hover:scale-110 font-medium
-       duration-200'>Skills
+       duration-200'>
+        <Link to="portfolio" smooth duration={500} >Portfolio</Link>
       </li>
       <li 
       className='px-4 cursor-pointer hover:scale-110 font-medium
-       duration-200'>Portfolio
+       duration-200'>
+        <Link to="skills" smooth duration={500} >Skills</Link>
       </li>
       <li 
       className='px-4 cursor-pointer hover:scale-110 font-medium
-       duration-200'>Contact
+       duration-200'>
+        <Link to="contact" smooth duration={500} >Contact</Link>
       </li>
      
     </ul>
@@ -52,19 +58,24 @@ const NavBar = () => {
                       left-0 w-full h-screen bg-black text-3xl text-gray-400'>
                    
                        <li 
-                       className='py-4 cursor-pointer'>Home
+                       className='py-4 cursor-pointer mobile-li'>
+                        <Link onClick={() => setToggle(!toggle)} to="home" smooth duration={500} >Home</Link>
                        </li>
                        <li 
-                       className='py-4 cursor-pointer'>About
+                       className='py-4 cursor-pointer mobile-li'>
+                        <Link onClick={() => setToggle(!toggle)} to="about" smooth duration={500} >About</Link>
                        </li>
                        <li 
-                       className='py-4 cursor-pointer'>Skills
+                       className='py-4 cursor-pointer mobile-li'>
+                        <Link onClick={() => setToggle(!toggle)} to="portfolio" smooth duration={500} >Portfolio</Link>
                        </li>
                        <li 
-                       className='py-4 cursor-pointer'>Portfolio
+                       className='py-4 cursor-pointer mobile-li'>
+                        <Link onClick={() => setToggle(!toggle)} to="skills" smooth duration={500} >Skills</Link>
                        </li>
                        <li 
-                       className='py-4 cursor-pointer'>Contact
+                       className='py-4 cursor-pointer mobile-li'>
+                        <Link onClick={() => setToggle(!toggle)} to="contact" smooth duration={500} >Contact</Link>
                        </li>
                  
                      </ul>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Experience.css"
+import "./Skills.css"
 import html from "../assets/html.png"
 import css from "../assets/css.png"
 import bootstrap from "../assets/bootstrap.png"
@@ -11,13 +11,13 @@ import firebase from "../assets/firebase.png"
 
 
 
-const Experience = () => {
+const Skills = () => {
   return (
      <>
-      <div name="experience" className='main-experience'>
+      <div name="skills" className='main-experience'>
         <div className='max-w-screen-lg mx-auto p-4 my-exp'>
 
-            <p className='exp-text'>Experience</p>
+            <p className='exp-text'>Skills</p>
             <p className='text-xl py-6'>These are the technologies i have worked with.</p> 
           
           <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 
@@ -71,4 +71,4 @@ const Experience = () => {
   )
 }
 
-export default Experience;
+export default Skills;

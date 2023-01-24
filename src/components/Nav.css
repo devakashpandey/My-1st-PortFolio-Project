@@ -12,4 +12,19 @@
    color:white;
    background-color: rgb(16, 15, 15);
    position: fixed;
+   font-size: 18px;
+}
+
+.main-nav,li:hover{
+  color: white;
+}
+
+.mobile-li{
+  transition: all 0.3s;
+
+}
+
+.mobile-li:hover{
+   color: white;
+   transform: scale(1.05);
 }

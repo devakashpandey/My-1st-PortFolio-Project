@@ -12,23 +12,30 @@ const PortCard = () => {
  const portCards = [
     {
       id: 1,
-      src: expenseTracker
+      src: expenseTracker,
+      myimg: expenseTracker
     },
     {
       id: 2,
-      src: filterGallery
+      src: filterGallery,
+      myimg: filterGallery
     },
     {
       id: 3,
-      src: tictactoe
+      src: tictactoe,
+      myimg:tictactoe
      },
     {
       id: 4,
       src:todoList,
+      myimg:todoList
     },
     {
       id: 5,
-      src:weatherApp
+      src:weatherApp,
+      link:"https://github.com/devakashpandey/Weather-App",
+      myimg:weatherApp
+      
     }
  ]
 
@@ -39,14 +46,14 @@ const PortCard = () => {
       <div className='grid sm:grid-cols-2 md:grid-cols-3 sm:px-0 gap-8 px-12 '>
       
       {
-        portCards.map(({id, src}) =>{
+        portCards.map(({id, src, link, myimg}) =>{
             return (
                       <div key={id} className='port-card h-full'>
                          <img src={src} alt=" expenseTracker" className='port-img duration-300'></img>
                       
                          <div className='buttons'>
-                           <button>Demo</button>
-                           <button>Get Code </button>
+                           <a href={myimg}><button>Demo</button></a>
+                           <a href={link} target="_blank"><button>Get Code </button></a>
                          </div>
                       </div>
             )
