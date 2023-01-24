@@ -34,7 +34,7 @@ const Experience = () => {
             </div>
 
             <div className="exp-img py-2 bootstrap">
-              <img src={bootstrap} alt="html" className='w-20 mx-auto py-3'></img>
+              <img src={bootstrap} alt="html" className='w-20 mx-auto py-2'></img>
               <p className='mt-4'>BOOTSTRAP</p>
             </div>
 
