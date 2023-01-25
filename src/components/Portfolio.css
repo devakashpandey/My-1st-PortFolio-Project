@@ -2,7 +2,6 @@
   background-color:  rgb(21, 21, 21);
   color: white;
   width: 100%;
-  padding-top:80px;
 }
 
 .port2{
@@ -18,7 +17,6 @@
   font-weight: 500;
   font-size: 48px;
   border-bottom: 5px solid grey;
-  width: 13rem;
   display: inline;
 }
 

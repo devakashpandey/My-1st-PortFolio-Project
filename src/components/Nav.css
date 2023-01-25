@@ -1,13 +1,14 @@
 .my-name{
   font-size: 45px;
+  cursor: pointer;
 }
+
 
 .main-nav{
    height: 70px;
    width: 100%;
    display: flex;
    justify-content: space-between;
-   padding: 15px;
    align-items: center;
    color:white;
    background-color: rgb(16, 15, 15);
@@ -16,7 +17,7 @@
 }
 
 .main-nav,li:hover{
-  color: white;
+  color: white
 }
 
 .mobile-li{

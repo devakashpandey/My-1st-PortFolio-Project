@@ -2,7 +2,7 @@
  background-color:  rgb(21, 21, 21);
  color: white;
  width: 100%;
- padding-top:100px;
+ padding-top: 100px;
 }
 
 .my-exp{
@@ -17,7 +17,6 @@
   font-size: 48px;
   font-weight: 500;
   border-bottom: 5px solid grey;
-  width: 7.5rem;
   display: inline;
 }
 

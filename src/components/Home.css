@@ -5,15 +5,6 @@
   height: 100vh;
 }
 
-.pic{
-   width: 450px;
-   height:auto;
-}
-
-.about{
-  width: 30rem;
-}
-
 .main-btn{
   background-color: rgb(48, 122, 251);
   border-radius: 8px;
@@ -26,5 +17,34 @@
 
 span{
  transition:all, 0.4s;
- font-size: 20px;
+ font-size: 23px;
 }
+
+
+
+@media (max-width:768px) {
+
+ .description{
+   text-align: center;
+   margin-top: 5rem;
+ }
+
+ .pic{
+   margin-bottom: 30px;
+ }
+
+ .main-btn{
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+}
+
+
+ @media (max-width:450px) {
+
+  .pic{
+    margin-top: -5rem;
+  }
+   
+ } 

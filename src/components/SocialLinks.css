@@ -7,7 +7,7 @@
 .social-li{
    display: flex;
    align-items: center;
-   background-color: rgb(105, 103, 103);
+   background-color: rgba(113, 112, 112, 0.665);
    height: 48px;
    width: 155px;
    transition: all 0.3s;

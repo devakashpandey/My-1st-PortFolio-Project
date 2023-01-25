@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
     
-     <div name="about" className='w-full h-screen main-about'>
+     <div name="about" className='main-about'>
         <div className='max-w-screen-lg p-4 mx-auto about-descrip'>
 
          <div className='pb-8'>

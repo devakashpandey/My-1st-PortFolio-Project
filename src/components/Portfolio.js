@@ -5,7 +5,7 @@ import PortCard from './PortCard';
 function Portfolio() {
   return (
    <>
-      <div name="portfolio" className='main-portfolio'>
+      <div name="portfolio" className='main-portfolio h-full'>
  
         <div className='max-w-screen-lg p-4 mx-auto port2'>
           <div className='pb-8 '>
