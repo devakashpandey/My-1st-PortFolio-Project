@@ -9,7 +9,7 @@ import Aos from "aos";
 
 const PortCard = () => {
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 1200 });
   }, []);
 
   const portCards = [
@@ -43,8 +43,6 @@ const PortCard = () => {
 
   return (
     <>
-      {/* portfolio card start !!*/}
-
       <div className="grid sm:grid-cols-2 md:grid-cols-3 sm:px-0 gap-8 px-12 ">
         {portCards.map(({ id, src, link, myimg }) => {
           return (
@@ -67,8 +65,6 @@ const PortCard = () => {
           );
         })}
       </div>
-
-      {/* portfolio card end !!!*/}
     </>
   );
 };
