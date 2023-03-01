@@ -23,7 +23,7 @@ const Contact = () => {
             >
               Contact
             </p>
-            <p className="text-xl py-6" data-aos="fade-left">
+            <p className="text-xl py-6" data-aos="fade-right">
               Submit the form below to get in touch with me.
             </p>
           </div>

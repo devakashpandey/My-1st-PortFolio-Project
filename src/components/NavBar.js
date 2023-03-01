@@ -80,7 +80,7 @@ const NavBar = () => {
         {toggle && (
           <ul
             className="flex flex-col justify-center items-center absolute top-0
-                      left-0 w-full h-screen bg-black text-4xl text-gray-500"
+                      left-0 w-full h-screen bg-black text-4xl text-gray-400"
           >
             <li className="py-5 cursor-pointer mobile-li">
               <Link

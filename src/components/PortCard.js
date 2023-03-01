@@ -45,13 +45,10 @@ const PortCard = () => {
     <>
       {/* portfolio card start !!*/}
 
-      <div
-        className="grid sm:grid-cols-2 md:grid-cols-3 sm:px-0 gap-8 px-12 "
-        data-aos="fade-right"
-      >
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 sm:px-0 gap-8 px-12 ">
         {portCards.map(({ id, src, link, myimg }) => {
           return (
-            <div key={id} className="port-card">
+            <div key={id} className="port-card" data-aos="zoom-in">
               <img
                 src={src}
                 alt="expenseTracker"

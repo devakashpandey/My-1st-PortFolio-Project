@@ -20,7 +20,7 @@ function Portfolio() {
             >
               Portfolio
             </p>
-            <p className="py-6 text-xl" data-aos="fade-left">
+            <p className="py-6 text-xl" data-aos="fade-right">
               Check out some of my work right here.{" "}
             </p>
           </div>

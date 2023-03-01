@@ -9,3 +9,9 @@
 html {
   font-family: "Raleway", sans-serif;
 }
+
+@media (min-width: 1180px) {
+  .main-app {
+    width: 100wh;
+  }
+}

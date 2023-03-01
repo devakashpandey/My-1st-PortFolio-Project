@@ -25,7 +25,7 @@ const Skills = () => {
           <div>
             <p
               className="exp-text"
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-cursor-text="Skills"
             >
               Skills
@@ -39,7 +39,7 @@ const Skills = () => {
             className="w-full grid grid-cols-2 sm:grid-cols-3 gap-10
            text-center py-8 px-12 sm:px-0"
           >
-            <div className="exp-img py-2 html" data-aos="fade-right">
+            <div className="exp-img py-2 html" data-aos="zoom-in">
               <img src={html} alt="html" className="w-20 mx-auto py-2"></img>
               <p className="mt-4">HTML</p>
             </div>
@@ -49,7 +49,7 @@ const Skills = () => {
               <p className="mt-4">CSS</p>
             </div>
 
-            <div className="exp-img py-2 bootstrap" data-aos="fade-left">
+            <div className="exp-img py-2 bootstrap" data-aos="zoom-in">
               <img
                 src={bootstrap}
                 alt="bootstrap"
@@ -58,7 +58,7 @@ const Skills = () => {
               <p className="mt-4">BOOTSTRAP</p>
             </div>
 
-            <div className="exp-img py-2 javascript" data-aos="fade-right">
+            <div className="exp-img py-2 javascript" data-aos="zoom-in">
               <img
                 src={javascript}
                 alt="javascript"
@@ -76,7 +76,7 @@ const Skills = () => {
               <p className="mt-4">REACT</p>
             </div>
 
-            <div className="exp-img py-2 github" data-aos="fade-left">
+            <div className="exp-img py-2 github" data-aos="zoom-in">
               <img
                 src={github}
                 alt="github"
@@ -85,7 +85,7 @@ const Skills = () => {
               <p className="mt-4">GITHUB</p>
             </div>
 
-            <div className="exp-img py-2 tailwind" data-aos="fade-right">
+            <div className="exp-img py-2 tailwind" data-aos="zoom-in">
               <img
                 src={tailwind}
                 alt="tailwind"
@@ -99,12 +99,12 @@ const Skills = () => {
               <p className="mt-4">GIT</p>
             </div>
 
-            <div className="exp-img py-2 mui" data-aos="fade-left">
+            <div className="exp-img py-2 mui" data-aos="zoom-in">
               <img src={mui} alt="mui" className="w-20 mx-auto py-3"></img>
               <p className="mt-4">MATERIAL UI</p>
             </div>
 
-            <div className="exp-img py-2 figma" data-aos="fade-right">
+            <div className="exp-img py-2 figma" data-aos="zoom-in">
               <img src={figma} alt="figma" className="w-20 mx-auto py-3"></img>
               <p className="mt-4">FIGMA</p>
             </div>
@@ -118,7 +118,7 @@ const Skills = () => {
               <p className="mt-4">REDUX</p>
             </div>
 
-            <div className="exp-img py-2 firebase" data-aos="fade-left">
+            <div className="exp-img py-2 firebase" data-aos="zoom-in">
               <img
                 src={firebase}
                 alt="html"
