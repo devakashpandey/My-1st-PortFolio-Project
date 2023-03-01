@@ -1,41 +1,50 @@
-import React from 'react'
-import "./About.css"
+import React, { useEffect } from "react";
+import "./About.css";
+import Aos from "aos";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
-    
-     <div name="about" className='main-about'>
-        <div className='max-w-screen-lg p-4 mx-auto about-descrip'>
+      <div name="about" className="main-about">
+        <div className="max-w-screen-lg p-4 mx-auto about-descrip">
+          <div className="pb-8" data-aos="fade-left">
+            <p className="about-txt" data-cursor-text="About">
+              About
+            </p>
+          </div>
 
-         <div className='pb-8'>
-          <p className='about-txt'>About</p>
-         </div>    
+          <p className="text-xl mt-8" data-aos="fade-right">
+            Hey!,
+            <br /> <br />
+            I'm{" "}
+            <span className="name" data-cursor-img="akash.jpg">
+              Akash Pandey
+            </span>{" "}
+            but you can call me{" "}
+            <span className="name" data-cursor-img="akky.jpg">
+              Akky
+            </span>
+            . A passionate Front-end developer with experience of 1 year and on
+            the way of learning MERN stack development. I love to work on web
+            application & making new designs using technologies like Figma,
+            Javascript, React Js, Material UI & Redux.
+          </p>
 
-        <p className='text-xl mt-10'>
-          Hey!,<br/> <br/>
-          My self Akash Pandey from Bihar, IN.
-          A Front-End Developer with experience of 1 year and 
-         on the way of learning MERN Stack Development.
-         I love to work web application using
-         technologies like Javascript, React, Bootstrap, Redux and Firebase.
-          Gaining More Knowledge From Any Platform Is Topmost Priority,
-          
-        </p>
+          <br />
 
-        <br/>
-
-        <p className='text-xl'>
-         I love web Designing & programming, as well as, taking photos and learning new things. 
-         I mostly use Html, Css, javascript, Bootstrap, React, Firebase to 
-         create small or big projects. Feel free to get in touch or take a look at my past work below.
-        </p>
-
-     </div>
-     </div>
-
+          <p className="text-xl" data-aos="fade-left">
+            I love web designing & programming as well as, taking photos and
+            learning new things.Feel free to get in touch or take a look at my
+            past work below.
+          </p>
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default About;

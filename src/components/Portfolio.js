@@ -1,29 +1,39 @@
-import React from 'react'
-import "./Portfolio.css"
-import PortCard from './PortCard';
+import React, { useEffect } from "react";
+import "./Portfolio.css";
+import PortCard from "./PortCard";
+import Aos from "aos";
 
 function Portfolio() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-   <>
-      <div name="portfolio" className='main-portfolio h-full'>
- 
-        <div className='max-w-screen-lg p-4 mx-auto port2'>
-          <div className='pb-8 '>
-            <p className='port-p'>PortFolio</p>
-            <p className='py-6 text-xl'>Check out some of my work right here. </p>
+    <>
+      <div name="portfolio" className="main-portfolio">
+        <div className="max-w-screen-lg p-4 mx-auto port2">
+          <div className="pb-8 port">
+            <p
+              className="port-p"
+              data-aos="fade-right"
+              data-cursor-text="Portfolio"
+            >
+              Portfolio
+            </p>
+            <p className="py-6 text-xl" data-aos="fade-left">
+              Check out some of my work right here.{" "}
+            </p>
           </div>
 
-    {/* portfolio card start !!*/}
+          {/* portfolio card start !!*/}
 
-    <PortCard />
+          <PortCard />
 
-    {/* portfolio card end !!!*/}
-
+          {/* portfolio card end !!!*/}
+        </div>
       </div>
-
-    </div>
-   </>
-  )
+    </>
+  );
 }
 
 export default Portfolio;

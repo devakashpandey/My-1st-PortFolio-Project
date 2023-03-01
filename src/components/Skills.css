@@ -1,65 +1,79 @@
-.main-experience{
- background-color:  rgb(21, 21, 21);
- color: white;
- width: 100%;
- padding-top: 100px;
+.main-experience {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  width: 100%;
+  padding-top: 100px;
 }
 
-.my-exp{
- width: 100%;
- height: 100%;
- display: flex;
- flex-direction: column;
- justify-content: center;
+.my-exp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.exp-text{
+.exp-text {
   font-size: 48px;
   font-weight: 500;
-  border-bottom: 5px solid grey;
-  display: inline;
+  display: inline-block;
 }
 
-.exp-img{
+.exp-img {
   border-radius: 10px;
   transition: all 0.3s;
   cursor: pointer;
 }
 
-.exp-img:hover{
-  transform: scale(1.05);
+.exp-img:hover {
+  transform: scale(1.06) !important;
+  transition-duration: 400ms !important;
 }
 
-.html{
+.html {
   box-shadow: 2px 3px 2px rgb(232, 130, 5);
 }
 
-.css{
-box-shadow: 2px 3px 2px rgb(5, 126, 170);
- }
-
-.bootstrap{
-box-shadow: 2px 3px 2px rgb(101, 26, 215);
+.css {
+  box-shadow: 2px 3px 2px rgb(5, 126, 170);
 }
 
-.javascript{
-box-shadow: 2px 3px 2px rgb(240, 240, 7);
+.bootstrap {
+  box-shadow: 2px 3px 2px rgb(101, 26, 215);
 }
 
-.react{
- box-shadow: 2px 3px 2px rgb(17, 242, 242);
+.javascript {
+  box-shadow: 2px 3px 2px rgb(240, 240, 7);
 }
 
-.github{
-box-shadow: 2px 3px 2px rgb(234, 225, 214);
+.react {
+  box-shadow: 2px 3px 2px rgb(17, 242, 242);
 }
 
-.tailwind{
-box-shadow: 2px 3px 2px rgb(4, 155, 160);
+.github {
+  box-shadow: 2px 3px 2px rgb(234, 225, 214);
 }
 
-.firebase{
-box-shadow: 2px 3px 2px rgb(172, 155, 3);
+.tailwind {
+  box-shadow: 2px 3px 2px rgb(4, 155, 160);
 }
 
-                    
+.git {
+  box-shadow: 2px 3px 2px rgba(221, 82, 1, 0.889);
+}
+
+.mui {
+  box-shadow: 2px 3px 2px rgb(3, 164, 172);
+}
+
+.figma {
+  box-shadow: 2px 3px 2px rgb(20, 230, 5);
+}
+
+.redux {
+  box-shadow: 2px 3px 2px rgba(93, 1, 230, 0.864);
+}
+
+.firebase {
+  box-shadow: 2px 3px 2px rgb(172, 155, 3);
+}

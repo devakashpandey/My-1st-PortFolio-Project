@@ -1,11 +1,11 @@
-.main-about{
+.main-about {
   background-color: rgb(21, 21, 21);
   color: white;
   height: 100vh;
   width: 100%;
 }
 
-.about-descrip{
+.about-descrip {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,8 +13,13 @@
   height: 100%;
 }
 
-.about-txt{
+.about-txt {
   font-size: 48px;
-  border-bottom: 5px solid grey;
-  display: inline;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 22px;
 }

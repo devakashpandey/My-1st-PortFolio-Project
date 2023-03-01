@@ -1,31 +1,40 @@
-.my-name{
-  font-size: 45px;
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Poppins:wght@400;500&display=swap");
+
+.my-name {
+  font-size: 43px;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
-
-.main-nav{
-   height: 70px;
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   color:white;
-   background-color: rgb(16, 15, 15);
-   position: fixed;
-   font-size: 18px;
+.main-nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgb(16, 15, 15);
+  position: fixed;
+  font-size: 18px;
+  z-index: 1000;
 }
 
-.main-nav,li:hover{
-  color: white
+.main-nav,
+li:hover {
+  color: white;
 }
 
-.mobile-li{
+.mobile-li {
   transition: all 0.3s;
-
 }
 
-.mobile-li:hover{
-   color: white;
-   transform: scale(1.05);
+.mobile-li:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+  .my-name {
+    font-size: 38px;
+  }
 }
