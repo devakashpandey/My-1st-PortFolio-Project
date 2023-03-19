@@ -33,7 +33,7 @@ const About = () => {
 
           <br />
 
-          <p className="text-xl" data-aos="zoom-in">
+          <p className="text-xl" data-aos="fade-right">
             I love web designing & programming as well as, taking photos and
             learning new things.Feel free to get in touch or take a look at my
             past work below.
