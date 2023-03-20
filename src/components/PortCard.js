@@ -5,6 +5,7 @@ import crypto from "../assets/portfolio/crypto.png";
 import tictactoe from "../assets/portfolio/tictactoe.png";
 import todoList from "../assets/portfolio/todo.png";
 import weatherApp from "../assets/portfolio/weather.png";
+import codepen from "../assets/portfolio/codepen.png";
 import Aos from "aos";
 
 const PortCard = () => {
@@ -43,6 +44,12 @@ const PortCard = () => {
       src: weatherApp,
       githubLink: "https://github.com/devakashpandey/Weather-App",
       projectLink: "https://weather-checker-by-akash.netlify.app",
+    },
+    {
+      id: 6,
+      src: codepen,
+      githubLink: "https://github.com/devakashpandey/Code-Pen",
+      projectLink: codepen,
     },
   ];
 
