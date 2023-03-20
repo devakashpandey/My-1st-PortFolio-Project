@@ -22,13 +22,12 @@ const About = () => {
             <br /> <br />
             I'm{" "}
             <span className="name" data-cursor-img="akash.jpg">
-              Akash Pandey
+              Akash Pandey,
             </span>{" "}
-            but you can call me <span className="name">Akky</span>. A passionate
-            Front-end developer with experience of 1 year and on the way of
-            learning MERN stack development. I love to work on web application &
-            making new designs using technologies like Figma, Javascript, React
-            Js, Material UI & Redux.
+            a passionate Front-end developer based in India with experience of 1
+            year and on the way of learning MERN stack development & Web 3.0. I
+            love to work on web application & making new designs using
+            technologies like Figma, Javascript, React Js, Material UI & Redux.
           </p>
 
           <br />

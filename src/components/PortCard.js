@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Portcard.css";
 import expenseTracker from "../assets/portfolio/expensetracker.png";
-import filterGallery from "../assets/portfolio/filtgal.png";
+import crypto from "../assets/portfolio/crypto.png";
 import tictactoe from "../assets/portfolio/tictactoe.png";
 import todoList from "../assets/portfolio/todo.png";
 import weatherApp from "../assets/portfolio/weather.png";
@@ -16,28 +16,33 @@ const PortCard = () => {
     {
       id: 1,
       src: expenseTracker,
-      myimg: expenseTracker,
+      githubLink: "https://github.com/devakashpandey/Expense-Tracker",
+      projectLink: "https://the-expense-tracker-app.netlify.app",
     },
     {
       id: 2,
-      src: filterGallery,
-      myimg: filterGallery,
+      src: crypto,
+      githubLink:
+        "https://github.com/devakashpandey/Crypto-Currency-Tracker-LOGIN",
+      projectLink: "https://live-crypto-currency-tracker.netlify.app",
     },
     {
       id: 3,
       src: tictactoe,
-      myimg: tictactoe,
+      githubLink: "https://github.com/devakashpandey/TicTacToe-ReactJS",
+      projectLink: "https://new-tic-tac-toe-game-by-akash.netlify.app",
     },
     {
       id: 4,
       src: todoList,
-      myimg: todoList,
+      githubLink: "https://github.com/devakashpandey/TODO-LIST-ReactJS",
+      projectLink: "https://todo-list-by-akash.netlify.app",
     },
     {
       id: 5,
       src: weatherApp,
-      link: "https://github.com/devakashpandey/Weather-App",
-      myimg: weatherApp,
+      githubLink: "https://github.com/devakashpandey/Weather-App",
+      projectLink: "https://weather-checker-by-akash.netlify.app",
     },
   ];
 
@@ -46,7 +51,7 @@ const PortCard = () => {
       {/* portfolio card start !!*/}
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 sm:px-0 gap-8 px-12 ">
-        {portCards.map(({ id, src, link, myimg }) => {
+        {portCards.map(({ id, src, githubLink, projectLink }) => {
           return (
             <div key={id} className="port-card" data-aos="zoom-in">
               <img
@@ -56,10 +61,10 @@ const PortCard = () => {
               ></img>
 
               <div className="buttons">
-                <a href={myimg}>
+                <a href={projectLink} target="_blank">
                   <button>Demo</button>
                 </a>
-                <a href={link} target="_blank">
+                <a href={githubLink} target="_blank">
                   <button>Code</button>
                 </a>
               </div>

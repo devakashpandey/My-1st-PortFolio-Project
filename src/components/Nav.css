@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Poppins:wght@400;500&display=swap");
 
 .my-name {
-  font-size: 43px;
+  font-size: 38px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
@@ -39,6 +39,6 @@ li:hover {
 
 @media (max-width: 500px) {
   .my-name {
-    font-size: 38px;
+    font-size: 32px;
   }
 }

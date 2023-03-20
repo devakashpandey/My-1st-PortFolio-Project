@@ -20,7 +20,7 @@ const Home = () => {
           <div className="flex flex-col justify-center h-full description">
             <h2
               className="text-4xl sm:text-6xl font-bold title-txt"
-              data-aos="zoom-in"
+              data-aos="fade-right"
               data-cursor-text="Front-End Developer"
             >
               I'm a Front-end Developer
